@@ -70,7 +70,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KC_BSPACE,      KC_A,           KC_S,           KC_D,           KC_F,           KC_G,           KC_DEL,                         KC_MEH,         KC_H,           KC_J,           KC_K,           KC_L,           LT(2,KC_SCOLON),TD(DANCE_3),
     KC_LSHIFT,      LCTL_T(KC_Z),   KC_X,           KC_C,           KC_V,           KC_B,                                           KC_N,           KC_M,           KC_COMMA,       KC_DOT,         KC_SLASH,       KC_RSHIFT,
     LT(1,KC_GRAVE), WEBUSB_PAIR,    LALT(KC_LSHIFT),KC_LEFT,        TD(DANCE_1),    LALT_T(KC_APPLICATION),                                         TD(DANCE_5),    TD(DANCE_4),    KC_DOWN,        KC_LBRACKET,    KC_RBRACKET,    MO(1),
+<<<<<<< HEAD
                                                                     TD(DANCE_4),    KC_BSPACE,      KC_LGUI,                         KC_BSPACE,     TD(DANCE_4),       TD(DANCE_6)
+=======
+                                                                    TD(DANCE_4),    KC_BSPACE,      KC_LGUI,                        KC_BSPACE,      TD(DANCE_4),    TD(DANCE_6)
+>>>>>>> 93d2a02625663bcecfd66d8e92f5b3fe8f0c869b
   ),
   [1] = LAYOUT_moonlander(
     KC_ESCAPE,      KC_F1,          KC_F2,          KC_F3,          KC_F4,          KC_F5,          KC_TRANSPARENT,                 KC_TRANSPARENT, KC_F6,          KC_F7,          KC_F8,          KC_F9,          KC_F10,         KC_F11,
